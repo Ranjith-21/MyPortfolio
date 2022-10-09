@@ -265,7 +265,7 @@ font-size: 20px;
 {
     // border: 1px solid red;
     display: flex;
-    justify-items: center !important;
+    justify-content: center;
     align-items: center;
 }
 .Experience_Row
@@ -298,4 +298,19 @@ font-size: 20px;
         background-color: #a6e1fa;
         box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     }
+}
+.my-5
+{
+    margin-bottom: 0px !important;
+}
+.last_Content_Edu
+{
+    text-align: center;
+        color: #7f8daa;
+        font-weight: 500;
+    
+        i {
+            color: red;
+        }
+    margin-top: 20px;
 }

@@ -1,5 +1,7 @@
 import React from 'react'
+import { Bounce } from 'react-awesome-reveal';
 import { Row, Col, Card } from 'react-bootstrap';
+import { Zoom } from 'react-awesome-reveal';
 
 function Project() {
 
@@ -15,6 +17,7 @@ function Project() {
           />
         </Col>
         <Col lg={6} className="Exp_Col">
+          <Bounce>
           <div className="Exp_Content">
             <h1>Project</h1>
             <p className="exp_p">
@@ -23,10 +26,12 @@ function Project() {
               web applications.
             </p>
           </div>
+          </Bounce>
         </Col>
       </Row>
       <Row>
         <Col className="Second_Row">
+          <Zoom>
           <Card style={{ width: "18rem" }} className="Sec_Card">
             <Card.Body>
               <Card.Title>Stronger Me</Card.Title>
@@ -45,7 +50,8 @@ function Project() {
               </Card.Text>
             </Card.Body>
           </Card>
-
+          </Zoom>
+          <Zoom>
           <Card style={{ width: "18rem" }} className="Sec_Card">
             <Card.Body>
               <Card.Title>My Porfolio</Card.Title>
@@ -61,7 +67,8 @@ function Project() {
               </Card.Text>
             </Card.Body>
           </Card>
-
+          </Zoom>
+          <Zoom>
           <Card style={{ width: "18rem" }} className="Sec_Card">
             <Card.Body>
               <Card.Title>E-Kart Mini Project</Card.Title>
@@ -80,6 +87,7 @@ function Project() {
               </Card.Text>
             </Card.Body>
           </Card>
+          </Zoom>
         </Col>
       </Row>
       <Row className="my-5">

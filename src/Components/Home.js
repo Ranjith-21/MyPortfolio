@@ -1,7 +1,9 @@
 import React from 'react'
+import { Bounce, Fade, Slide, Zoom } from "react-awesome-reveal";
 import { Col, Row } from 'react-bootstrap';
 import ToolTips from '../Atoms/ToolTips';
 import './../Components/Custom.scss'
+
 
 function Home() {
   return (
@@ -9,7 +11,9 @@ function Home() {
       <Row>
         <Col lg={6} className="Main_Col">
           <div className="Text_Col">
+            <Slide>
             <h1>Ranjith Reddy M A</h1>
+            </Slide>
             <h3>(Software Developer)</h3>
             <p>
               A passionate individual who always thrive to work on end to end
@@ -17,6 +21,7 @@ function Home() {
               technical systems to create impact.
             </p>
             <div className="Icon_div">
+              <Zoom>
               <a href="https://github.com/Ranjith-21/E-KART-MINIPROJECT">
                 <i class="fa-brands fa-github"></i>
               </a>
@@ -26,6 +31,7 @@ function Home() {
               <a href="https://www.instagram.com/">
                 <i class="fa-brands fa-square-instagram"></i>
               </a>
+              </Zoom>
             </div>
           </div>
         </Col>
@@ -41,16 +47,19 @@ function Home() {
       <Row className="Second_Row">
         <h1>What I Do?</h1>
         <Col lg={6}>
+          <Fade right >
           <img
             src={require("./../Assests/What_i_do.png")}
             alt=""
             width="100%"
             height="100%"
           />
+          </Fade>
         </Col>
-        <Col lg={6} className="Second_Col">
+        <Col lg={6} className="Second_Col animate__backInRight">
           <h1>Front-End Developer</h1>
           <div className="Icon_div">
+            <Bounce>
             <ToolTips
               title={<i class="fa-brands fa-html5"></i>}
               value={"HTML"}
@@ -76,8 +85,10 @@ function Home() {
               value={"Sass"}
             />
             <ToolTips title={<i class="fa-brands fa-npm"></i>} value={"NPM"} />
+            </Bounce>
           </div>
           <div className="div_content">
+            <Fade cascade >
             <p>
               <i class="fa-solid fa-bolt"></i> Building resposive website front
               end using React-Redux.
@@ -87,7 +98,8 @@ function Home() {
               front-end performance by making use of reusable components.
             </p>
             <p>
-              <i class="fa-solid fa-bolt"></i> Integrating 3rd party libraries to make Application more interactive and responsive.
+              <i class="fa-solid fa-bolt"></i> Integrating 3rd party libraries
+              to make Application more interactive and responsive.
             </p>
             <p>
               <i class="fa-solid fa-bolt"></i>Integrated HTTP Interceptors to
@@ -97,11 +109,12 @@ function Home() {
               <i class="fa-solid fa-bolt"></i> Experience Working on several
               Project based on React.
             </p>
+            </Fade>
           </div>
         </Col>
         <p className="last_Content">
-          Made with <i class="fa-sharp fa-solid fa-heart"></i> by Ranjith Reddy M
-          A
+          Made with <i class="fa-sharp fa-solid fa-heart"></i> by Ranjith Reddy
+          M A
         </p>
       </Row>
     </div>

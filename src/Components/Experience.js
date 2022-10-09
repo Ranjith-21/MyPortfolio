@@ -1,4 +1,5 @@
 import React from 'react'
+import { Bounce } from 'react-awesome-reveal';
 import { Row, Col, Accordion } from 'react-bootstrap';
 
 function Experience() {
@@ -14,6 +15,7 @@ function Experience() {
           />
         </Col>
         <Col lg={6} className="Exp_Col">
+          <Bounce>
           <div className="Exp_Content">
             <h1>Experience</h1>
             <p>
@@ -25,6 +27,7 @@ function Experience() {
               mostly as Trainee Software Developer.
             </p>
           </div>
+          </Bounce>
         </Col>
       </Row>
       <Row className="Second_Row_Exp">

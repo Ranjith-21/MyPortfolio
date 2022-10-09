@@ -1,5 +1,6 @@
 import React from 'react'
 import { Row, Col } from 'react-bootstrap';
+import { Bounce } from 'react-awesome-reveal';
 
 function ContactMe() {
   return (
@@ -14,6 +15,7 @@ function ContactMe() {
           />
         </Col>
         <Col lg={6} className="Exp_Col">
+          <Bounce>
           <div className="Exp_Content">
             <h1>Contact Me</h1>
             <p className="exp_p">
@@ -22,11 +24,13 @@ function ContactMe() {
               Redux, React Native and MongoDb.
             </p>
           </div>
+          </Bounce>
         </Col>
       </Row>
       <Row>
         <Col lg={6} className="Con_Col">
-          <div className="Con_Content">
+          <Bounce>
+           <div className="Con_Content">
             <h1>Address</h1>
             <p className="exp_p">
               Ravindra Nagar, T.Dasarahalli, Bangalore, Karnataka 560057.
@@ -34,6 +38,7 @@ function ContactMe() {
             <h1>Phone Number</h1>
             <p className="exp_p">+91 9742409231</p>
           </div>
+          </Bounce>
         </Col>
         <Col lg={6}>
           <img

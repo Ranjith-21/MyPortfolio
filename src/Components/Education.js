@@ -1,4 +1,5 @@
 import React from 'react'
+import { Bounce, JackInTheBox, Slide } from 'react-awesome-reveal';
 import { Row, Col, Card } from 'react-bootstrap';
 import './../Components/Custom.scss'
 
@@ -17,12 +18,14 @@ function Education() {
         </Col>
         <Col>
           <div className="Edu_content">
+            <Bounce>
             <h1>Education</h1>
             <p>Basic Qualification and Certifcations</p>
             <div className="Icon_div">
               <i class="fa-solid fa-building-columns"></i>
               <i class="fa-sharp fa-solid fa-certificate"></i>
             </div>
+            </Bounce>
           </div>
         </Col>
       </Row>
@@ -40,6 +43,7 @@ function Education() {
               height="150px"
             />
           </div>
+          <Slide>
           <Card className="text-start">
             <Card.Header className="CardHeader">
               <h1 className="Col_Header">
@@ -76,6 +80,7 @@ function Education() {
               </Card.Text>
             </Card.Body>
           </Card>
+          </Slide>
         </Col>
       </Row>
       <Row className="my-5">
@@ -92,6 +97,7 @@ function Education() {
               height="150px"
             />
           </div>
+          <Slide >
           <Card className="text-start">
             <Card.Header className="CardHeader">
               <h1 className="Col_Header">
@@ -124,10 +130,11 @@ function Education() {
               </Card.Text>
             </Card.Body>
           </Card>
+          </Slide>
         </Col>
       </Row>
       <Row>
-        <p className="last_Content">
+        <p className="last_Content_Edu">
           Made with <i class="fa-sharp fa-solid fa-heart"></i> by Ranjith Reddy
           M A
         </p>
