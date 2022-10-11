@@ -228,11 +228,28 @@ font-size: 20px;
        font-weight: 600;
     }
 }
-.Exp_Content
+.Con_Content1
 {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
     // border: 1px solid red;
     width: 80%;
     h1,p
+    {
+        color: $color-heading;
+        text-align: center;
+    }
+}
+.css-1dxe8h0
+{
+    display: flex;
+    justify-content: center;
+}
+.Exp_Content
+{
+    width: 80%;
+    h1,p 
     {
         color: $color-heading;
         text-align: center;
@@ -252,8 +269,8 @@ font-size: 20px;
 .Exp_Col
 {
     display: flex;
-    justify-items: center;
     align-items: center;
+    // border: 1px solid red;
 }
 .exp_p
 {

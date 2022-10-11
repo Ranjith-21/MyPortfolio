@@ -16,7 +16,7 @@ function ContactMe() {
         </Col>
         <Col lg={6} className="Exp_Col">
           <Bounce>
-          <div className="Exp_Content">
+          <div className="Con_Content1">
             <h1>Contact Me</h1>
             <p className="exp_p">
               I am available on almost every social media. You can message me, I
